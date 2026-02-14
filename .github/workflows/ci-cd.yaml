@@ -194,14 +194,14 @@ jobs:
         id: deploy
         run: |
           # Deploy the service
-          docker-compose up -d api
+          docker compose up -d api
           
           # Wait for container to start
           echo "Waiting for service to start..."
           sleep 15
           
           # Check if container is running
-          docker-compose ps
+          docker compose ps
           
           # Output URL
           echo "url=http://localhost:8000" >> $GITHUB_OUTPUT

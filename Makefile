@@ -123,7 +123,7 @@ docker-train:
 
 docker-compose-up:
 	@echo "Starting all services with Docker Compose..."
-	docker-compose up -d api
+	docker compose up -d api
 	@echo "Services started!"
 
 docker-compose-down:

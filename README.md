@@ -99,7 +99,7 @@ git clone https://github.com/yourusername/mlops-cats-dogs.git
 cd mlops-cats-dogs
 
 # 2. Build and run with Docker Compose
-docker-compose up -d api
+docker compose up -d api
 
 # The API will be available at http://localhost:8000
 ```
@@ -257,7 +257,7 @@ docker run -p 8000:8000 cats-dogs-classifier:latest
 
 ```bash
 # Start API service
-docker-compose up -d api
+docker compose up -d api
 
 # Start with MLflow tracking
 docker-compose --profile tracking up -d
