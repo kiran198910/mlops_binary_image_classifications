@@ -1,0 +1,14 @@
+artifact_uri: /Users/kiranahirkar/Desktop/BITS Python/mlops_binary_classification/mlops_binary_image_classification/mlops-cats-dogs/mlruns/584908570533354060/7e537e26d8974b2291e7c0243e37c58f/artifacts
+end_time: 1771063873559
+entry_point_name: ''
+experiment_id: '584908570533354060'
+lifecycle_stage: active
+run_id: 7e537e26d8974b2291e7c0243e37c58f
+run_name: nebulous-sheep-431
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771063842193
+status: 3
+tags: []
+user_id: kiranahirkar

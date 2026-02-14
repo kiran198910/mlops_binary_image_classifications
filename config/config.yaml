@@ -1,0 +1,43 @@
+# Configuration for Cats vs Dogs MLOps Pipeline
+
+data:
+  raw_data_path: "data/raw"
+  processed_data_path: "data/processed"
+  train_path: "data/processed/train"
+  validation_path: "data/processed/validation"
+  test_path: "data/processed/test"
+  image_size: 150
+  batch_size: 32
+  validation_split: 0.2
+  test_split: 0.1
+
+model:
+  name: "cats_dogs_cnn"
+  architecture: "custom_cnn"  # Options: custom_cnn, mobilenet, resnet50
+  input_shape: [150, 150, 3]
+  num_classes: 2
+  classes: ["cat", "dog"]
+  
+training:
+  epochs: 20
+  learning_rate: 0.001
+  optimizer: "adam"
+  early_stopping_patience: 5
+  reduce_lr_patience: 3
+  model_checkpoint_path: "models/checkpoints"
+  final_model_path: "models/final"
+
+mlflow:
+  tracking_uri: "mlruns"
+  experiment_name: "cats_dogs_classification"
+  registry_model_name: "cats_dogs_model"
+
+inference:
+  model_path: "models/final/cats_dogs_model.h5"
+  threshold: 0.5
+  host: "0.0.0.0"
+  port: 8000
+
+docker:
+  image_name: "cats-dogs-classifier"
+  image_tag: "latest"

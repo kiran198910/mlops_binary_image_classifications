@@ -1,0 +1,10 @@
+artifact_location: /Users/kiranahirkar/Desktop/BITS Python/mlops_binary_classification/mlops_binary_image_classification/mlops-cats-dogs/mlruns/584908570533354060/models/m-d16fdb6b0e794f548b510043a1b3ee60/artifacts
+creation_timestamp: 1771061192228
+experiment_id: '584908570533354060'
+last_updated_timestamp: 1771061199244
+model_id: m-d16fdb6b0e794f548b510043a1b3ee60
+model_type: null
+name: model
+source_run_id: b081983764894febafdc81d3c1131ea1
+status: 2
+status_message: null

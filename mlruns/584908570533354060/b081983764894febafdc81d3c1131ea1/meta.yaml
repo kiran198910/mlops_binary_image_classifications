@@ -1,0 +1,14 @@
+artifact_uri: /Users/kiranahirkar/Desktop/BITS Python/mlops_binary_classification/mlops_binary_image_classification/mlops-cats-dogs/mlruns/584908570533354060/b081983764894febafdc81d3c1131ea1/artifacts
+end_time: 1771061199248
+entry_point_name: ''
+experiment_id: '584908570533354060'
+lifecycle_stage: active
+run_id: b081983764894febafdc81d3c1131ea1
+run_name: whimsical-snail-671
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771061179076
+status: 3
+tags: []
+user_id: kiranahirkar
