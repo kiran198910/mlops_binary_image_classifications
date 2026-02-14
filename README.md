@@ -312,7 +312,6 @@ The GitHub Actions workflow (`.github/workflows/ci-cd.yaml`) automates:
 2. Add the following secrets:
    - `DOCKER_USERNAME`: Docker Hub username
    - `DOCKER_PASSWORD`: Docker Hub password/token
-   
 
 ### Manual Training Trigger
 
