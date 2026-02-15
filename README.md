@@ -1,8 +1,8 @@
-# 🐱🐶 Cats vs Dogs MLOps Project
+# Cats vs Dogs MLOps Project
 
 A complete end-to-end MLOps pipeline for image classification of cats and dogs. This project demonstrates industry best practices for machine learning operations including data pipelines, model training, experiment tracking, API deployment, containerization, and CI/CD.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Quick Start](#quick-start)
@@ -14,7 +14,7 @@ A complete end-to-end MLOps pipeline for image classification of cats and dogs. 
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 
-## ✨ Features
+## Features
 
 - **Data Pipeline**: Automated data download, preprocessing, and train/val/test splitting
 - **Model Training**: CNN-based image classification with multiple architecture options
@@ -24,7 +24,7 @@ A complete end-to-end MLOps pipeline for image classification of cats and dogs. 
 - **CI/CD**: GitHub Actions workflow for automated testing and deployment
 - **Code Quality**: Integrated linting, formatting, and testing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mlops-cats-dogs/
@@ -59,7 +59,7 @@ mlops-cats-dogs/
 └── README.md                  # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -104,7 +104,7 @@ docker compose up -d api
 # The API will be available at http://localhost:8000
 ```
 
-## 📖 Step-by-Step Guide
+## Step-by-Step Guide
 
 ### Step 1: Environment Setup
 
@@ -213,7 +213,7 @@ with open("cat.jpg", "rb") as f:
 print(response.json())
 ```
 
-## 🌐 API Usage
+## API Usage
 
 ### Endpoints
 
@@ -322,7 +322,7 @@ workflow_dispatch:
     run_training: true
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `config/config.yaml` to customize:
 
@@ -345,7 +345,7 @@ inference:
   port: 8000
 ```
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 # Run all tests
@@ -358,7 +358,7 @@ make test-cov
 pytest tests/test_mlops.py -v
 ```
 
-## 📝 Available Make Commands
+## Available Make Commands
 
 | Command | Description |
 |---------|-------------|
@@ -418,11 +418,11 @@ docker build --no-cache -t cats-dogs-classifier:latest .
 chmod -R 755 data/ models/
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -431,5 +431,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 5. Open a Pull Request
 
 ---
-
-**Happy Classifying! 🐱🐶**
